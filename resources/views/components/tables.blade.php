@@ -1,6 +1,10 @@
 <!-- start::Table -->
 <div class="bg-white rounded-lg px-8 py-6 overflow-x-scroll custom-scrollbar">
-    <h4 class="text-xl font-semibold">Recent transactions</h4>
+    <div class="flex justify-between">
+        <h4 class="text-xl font-semibold">Recent transactions</h4>
+        <x-searchbard>
+        </x-searchbard>
+    </div>
     <table class="w-full my-8 whitespace-nowrap">
         <thead class="bg-secondary text-gray-100 font-bold">
             <td>
